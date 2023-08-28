@@ -19,7 +19,3 @@
 ## Usage
 
 ## Notes
-
-## Usage
-
-## Notes
