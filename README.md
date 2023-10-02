@@ -12,7 +12,7 @@
 
 ### Competition
 
-## Overview
+## Technical overview
 
 ### Usecases
 
