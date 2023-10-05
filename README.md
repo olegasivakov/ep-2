@@ -10,7 +10,7 @@ Blockchain now has many intersections with regulated financial institutions that
 
 I started developing this project in order to provide blockchain businesses and software developers with the possibility of direct integration of on-chain and off-chain information systems.
 
-### Project description
+### Project plan
 
 Our target is to learn ethereum node to:
 - receive and parse ISO 15022/20022 and MT messages,
