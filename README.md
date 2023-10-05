@@ -19,7 +19,8 @@ Our target is to learn ethereum node to:
 - reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
 - sign and send well-formed blockchain transaction responding by standartized message,
 - detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 15022/20022 or MIT data standard,
-- create standartized message and send it to on-chain.
+- create standartized message and send it to on-chain,
+- use a version control approach for data schemes, dictionaries and data libraries.
 
 We have to describe usecases, and develop the testing environment to demonstrate data transfers related to provided usecases.
 
