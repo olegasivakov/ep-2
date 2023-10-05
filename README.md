@@ -1,4 +1,4 @@
-# EP-2: ISO15022/20022 tx data parser and oracle
+# EP-2: ISO15022/20022 and MT format support
 
 ## About project
 
