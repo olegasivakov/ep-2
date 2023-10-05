@@ -44,17 +44,17 @@ At the end, we have to provide instructions and examples for community of develo
 
 ### DOD
 
-#### Stage 1
+#### _Stage 1_
 
-#### Stage 2
+#### _Stage 2_
 
-#### Stage 3
+#### _Stage 3_
 
-#### Stage 4
+#### _Stage 4_
 
-#### Stage 5
+#### _Stage 5_
 
-#### Stage 6
+#### _Stage 6_
 
 ### Estimated time
 
