@@ -44,6 +44,18 @@ At the end, we have to provide instructions and examples for community of develo
 
 ### DOD
 
+#### Stage 1
+
+#### Stage 2
+
+#### Stage 3
+
+#### Stage 4
+
+#### Stage 5
+
+#### Stage 6
+
 ### Estimated time
 
 ### How to test
