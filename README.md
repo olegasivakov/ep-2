@@ -8,7 +8,7 @@ ISO 15022/20022, known as "universal financial industry message scheme", offers 
 
 Blockchain now has many intersections with regulated financial institutions that use mentioned standards of data messaging. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
 
-I started developing this project in order to provide blockchain businesses and software developers with the possibility of direct integration of on-chain and off-chain information systems.
+We started developing this project in order to provide blockchain businesses and software developers with the possibility of direct integration of on-chain and off-chain information systems.
 
 ### Project plan
 
