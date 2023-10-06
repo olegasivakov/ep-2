@@ -85,9 +85,9 @@ Being the Top-1 of business blockchains, Ethereum will be the first of Top-10 bl
 
 We develop this project for the next usecases:
 
-**1. Buy, sell, transfer, deposit, pledge a native coin**
+**1. Buy, sell, transfer, deposit, pledge a native coin or stablecoin defined by smart contract**
 
-**2. Buy, sell, transfer, deposit, pledge a stablecoin defined by smart contract**
+**2. Fiat payment and exchange fiat currencies**
 
 **3. Issue, buy, sell, transfer, deposit, pledge securities defined by smart contract**
 
