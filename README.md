@@ -17,9 +17,6 @@
   - [Stage 1](https://github.com/olegasivakov/ep-2#stage-1)
   - [Stage 2](https://github.com/olegasivakov/ep-2#stage-2)
   - [Stage 3](https://github.com/olegasivakov/ep-2#stage-3)
-  - [Stage 4](https://github.com/olegasivakov/ep-2#stage-4)
-  - [Stage 5](https://github.com/olegasivakov/ep-2#stage-5)
-  - [Stage 6](https://github.com/olegasivakov/ep-2#stage-6)
 - [Estimated time](https://github.com/olegasivakov/ep-2#estimated-time)
 - [How to test](https://github.com/olegasivakov/ep-2#how-to-test)
 - [How to deploy](https://github.com/olegasivakov/ep-2#how-to-deploy)
@@ -158,17 +155,11 @@ Typically, Ethnode is running on the single device (PC or server), or in the Doc
 
 ### DOD
 
-#### _Stage 1_
+#### _Stage 1. Messaging format parser and translator, node API and oracle-on-the-node_
 
-#### _Stage 2_
+#### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
-#### _Stage 3_
-
-#### _Stage 4_
-
-#### _Stage 5_
-
-#### _Stage 6_
+#### _Stage 3. Cybersecurity, testing environment and examples_
 
 ### Estimated time
 
