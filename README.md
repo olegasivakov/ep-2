@@ -36,7 +36,7 @@ There is a wide list of important points of implementing ISO financial standards
 
 ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
 
-1. Common points of importance:
+**1. Common points of importance:**
 
 - Interoperability: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
 - Institutional Integration: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
@@ -49,20 +49,20 @@ ISO 15022/20022 brings standardization and interoperability to the crypto space,
 - Market Growth: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
 - Mainstream Exposure: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
 
-2. Importance for community of developers:
+**2. Importance for community of developers:**
 
 - Interoperability
 - Well-developed business models compliant to world-wide regulations
 
-3. Importance for crypto-business community
+**3. Importance for crypto-business community**
 
-4. Importance for crypto users
+**4. Importance for crypto users**
 
-5. Importance for integrators:
+**5. Importance for integrators:**
 
-6. Importance for financial institutions:
+**6. Importance for financial institutions:**
 
-7. Importance for authorities:
+**7. Importance for authorities:**
 
 ### Issue
 
