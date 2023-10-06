@@ -151,7 +151,13 @@ Typically, Ethnode is running on the single device (PC or server), or in the Doc
 
 **3. Data formats**
 
+ISO 20022 and MT data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
+
+In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
+
 **4. Sender, receiver, customer identities**
+
+
 
 **5. Development tools**
 
