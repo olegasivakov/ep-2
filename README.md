@@ -4,6 +4,8 @@
 
 ### Motivation
 
+We intend to make Ethereum-based blockchains compliant to international financial messaging standards. There are not too many blockchains already compliant to international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of top-30 of cryptocurrencies by Coinmarketcap (QNT is 42nd); and XRP is only moving to regulatory compliance in some countries.
+
 ISO 15022/20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
 Blockchain now has many intersections with regulated financial institutions that use mentioned standards of data messaging. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
@@ -29,6 +31,38 @@ Working on above, we have to solve some problems related to authorizing the exte
 At the end, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 15022/20022?), and Docker container of node and external services supported ISO 15022/20022 and MT messages for blockchain.
 
 ### Project importance
+
+There is a wide list of important points of implementing ISO financial standards in Ethereum.
+
+ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
+
+1. Importance for Ethereum itself:
+
+- Interoperability: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
+- Institutional Integration: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
+- Global Acceptance: ISO 20022’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
+- Efficient Communication: Standardized messaging reduces complexities in communication, streamlining processes and reducing errors in crypto transactions.
+- Cross-Border Transactions: ISO 20022 compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
+- Innovation Pathway: Embracing ISO 20022 demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
+- Regulatory Alignment: Compliance with recognized financial standards may lead to smoother regulatory relationships, aiding in addressing potential concerns.
+- Enhanced Data Management: Standardized data formats facilitate better data management and analysis, enabling improved insights into cryptocurrency markets.
+- Market Growth: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
+- Mainstream Exposure: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
+
+2. Importance for community of developers:
+
+- Interoperability
+- Well-developed business models compliant to world-wide regulations
+
+3. Importance for crypto-business community
+
+4. Importance for crypto users
+
+5. Importance for integrators:
+
+6. Importance for financial institutions:
+
+7. Importance for authorities:
 
 ### Issue
 
