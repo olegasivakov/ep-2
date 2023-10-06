@@ -173,7 +173,7 @@ The ideology of financial messages consists in the transfer of identified user d
 
 **Stage 1 ETA**
 
-24 weeks (12 two-week sprints)
+24 weeks (12 two-week sprints, 960 hr)
 
 **Stage 2 ETA**
 
