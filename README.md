@@ -1,4 +1,4 @@
-# EP-2: ISO15022/20022 and MT format support for Ethereum
+# EP-2: ISO 20022 and MT format support for Ethereum
 
 ## Index
 
@@ -33,7 +33,7 @@
 
 We intend to make Ethereum-based blockchains compliant to international financial messaging standards.
 
-ISO 15022/20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
+ISO 20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
 Blockchain now has many intersections with regulated financial institutions that use mentioned standards of data messaging. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
 
@@ -42,12 +42,12 @@ We started developing this project in order to provide blockchain businesses and
 ### Project plan
 
 Our target is to teach the ethereum node to:
-- receive and parse ISO 15022/20022 and MT messages,
+- receive and parse ISO 20022 and MT messages,
 - translate it to transaction pre-validating one (and encrypt it?),
 - split standartized data to tx body and tx data intended for smart contracts,
 - reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
 - sign and send well-formed blockchain transaction responding by standartized message,
-- detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 15022/20022 or MIT data standard,
+- detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 20022 or MIT data standard,
 - create standartized message and send it to on-chain,
 - use a version control approach for data schemes, dictionaries and data libraries.
 
@@ -55,13 +55,13 @@ We have to describe usecases, and develop the testing environment to demonstrate
 
 Working on above, we have to solve some problems related to authorizing the external service to sign blockchain transaction, translate standartized messages to the blockchain transaction and vice versa, and authorize blockchain node to connect to external service. In particular, we should follow to one of financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
 
-At the end, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 15022/20022?), and Docker container of node and external services supported ISO 15022/20022 and MT messages for blockchain.
+At the end, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 20022 and MT messages for blockchain.
 
 ### Project importance
 
 There is a wide list of important points of implementing ISO financial standards in Ethereum.
 
-ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
+ISO 20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
 
 **1. Common points of importance:**
 
@@ -131,7 +131,7 @@ There are two common cases of transaction usage:
 - sending coins (```ETH``` or ```wei```) from user's account to another account;
 - sending some data to execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
 
-ISO 15022/20022 and MT messages are looks like as:
+ISO 20022 and MT messages are looks like as:
 
 - a set of data that can be splited to sender-related, receiver-related, and customer-related prtis,
 - coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
