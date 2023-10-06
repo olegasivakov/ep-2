@@ -30,7 +30,7 @@
 
 [License](https://github.com/olegasivakov/ep-2#license)
 
-## About project
+## About project ([Index](https://github.com/olegasivakov/ep-2#index))
 
 ### Motivation
 
