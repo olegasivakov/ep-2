@@ -20,10 +20,10 @@
   - [Stage 5](https://github.com/olegasivakov/ep-2#stage-5)
   - [Stage 6](https://github.com/olegasivakov/ep-2#stage-6)
 - [Estimated time](https://github.com/olegasivakov/ep-2#estimated-time)
-- [How to test]()
-- [How to deploy]()
-[Usage]()
-[Notes]()
+- [How to test](https://github.com/olegasivakov/ep-2#how-to-test)
+- [How to deploy](https://github.com/olegasivakov/ep-2#how-to-deploy)
+[Usage](https://github.com/olegasivakov/ep-2#usage)
+[Notes](https://github.com/olegasivakov/ep-2#notes)
 [License](https://github.com/olegasivakov/ep-2#license)
 
 ## About project
@@ -183,6 +183,10 @@ _@TODO_
 _@TODO_
 
 ## Notes
+
+> [!NOTE]
+> [ISO 15022/200255 official website](https://www.iso20022.org/)
+> [ISO 15022/200222 Intellectual property rights]([https://www.iso20022.org/terms-use](https://www.iso20022.org/intellectual-property-rights))
 
 ## License
 
