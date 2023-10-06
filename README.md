@@ -87,6 +87,24 @@ Being the Top-1 of business blockchains, Ethereum will be the first of Top-10 bl
 
 ### Technical analysis
 
+Ethereum blockchain provides data broadcast, access and execution layer using as a basement for external business logic. Any operation inside that layer is processed by sending ```transaction```, a structured data including node coin value, input data, and a number of technical fields.
+
+There are two common cases of transaction usage:
+
+- sending coins (```ETH``` or ```wei```) from user's account to another account;
+- sending some data to execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
+
+ISO 15022/20022 and MT messages are looks like as:
+
+- coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
+- a set of data that should be processed by some algorithm (```contract```, for example). This data set may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
+
+All data of standartized messages should be securely transferred; in common case, it means that data should be encrypted, but the blockchain ```contract``` should process data despite that encryption. It means that one of particular tasks is to create an ```object``` that can be processed with contract uzing **zero-knowledge** approach to data processing.
+
+Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called.
+
+
+
 ### DOD
 
 #### _Stage 1_
