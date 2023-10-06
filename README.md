@@ -149,8 +149,6 @@ Blockchain is a network of untrusted nodes; it means that we don't need to monit
 
 Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called.
 
-Financial information systems are well-protected at the software level, communication channels and physical access to hardware.
-
 **3. Data formats**
 
 **4. Sender, receiver, customer identities**
