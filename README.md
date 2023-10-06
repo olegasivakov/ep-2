@@ -4,7 +4,7 @@
 
 ### Motivation
 
-We intend to make Ethereum-based blockchains compliant to international financial messaging standards. There are not too many blockchains already compliant to international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of top-30 of cryptocurrencies by Coinmarketcap (QNT is 42nd); and XRP is only moving to regulatory compliance in some countries.
+We intend to make Ethereum-based blockchains compliant to international financial messaging standards. There are not too many blockchains already compliant to international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of Top-30 of cryptocurrencies by Coinmarketcap (QNT is 42nd); and XRP is only moving to regulatory compliance in some countries.
 
 ISO 15022/20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
@@ -66,6 +66,12 @@ ISO 15022/20022 brings standardization and interoperability to the crypto space,
 **7. Importance for authorities:**
 
 ### Issue
+
+During the project we plan to solve the next issues:
+
+- make the Top-1 business blockchain compatible with international financial messaging standard,
+- provide smoothly and secure communications between on-chain and off-chain information systems,
+- and bring together communities of crypto- and institutional developers by offering a set of development and integration tools.
 
 ### Competition
 
