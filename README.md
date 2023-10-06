@@ -171,6 +171,13 @@ The ideology of financial messages consists in the transfer of identified user d
 
 ### Estimated time
 
+**Stage 1 ETA**
+
+**Stage 2 ETA**
+
+**Stage 3 ETA**
+
+
 ### How to test
 
 _@TODO_
