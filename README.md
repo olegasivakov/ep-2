@@ -96,6 +96,7 @@ There are two common cases of transaction usage:
 
 ISO 15022/20022 and MT messages are looks like as:
 
+- a set of data that can be splited to sender-related, receiver-related, and customer-related prtis,
 - coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
 - a set of data that should be processed by some algorithm (```contract```, for example). This data set may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
 
