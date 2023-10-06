@@ -189,10 +189,10 @@ _@TODO_
 ## Notes
 
 > [!NOTE]
-> ISO 15022/200255 official website: https://www.iso20022.org/
+> ISO 20022 official website: https://www.iso20022.org/
 
 > [!NOTE]
-> ISO 15022/200222 Intellectual property rights information: https://www.iso20022.org/intellectual-property-rights
+> ISO 20022 Intellectual property rights information: https://www.iso20022.org/intellectual-property-rights
 
 ## License
 
