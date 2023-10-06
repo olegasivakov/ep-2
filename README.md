@@ -143,6 +143,8 @@ Solving our issues with data processing, we have to make improvements to the nod
 
 **2. Connections and cybersecurity**
 
+Information system that supports financial messaging must comply with cybersecurity frameworks related to financial market (such as ISO27k, NIST 800-171, GOST R 57580). These tasks should be correlated with blockchain context.
+
 Blockchain is a network of untrusted nodes; it means that we don't need to monitor network security issues when the transaction was signed and sent to blockchain. But, we have to build a strong security for network between off-chain information systems and ethnode, including node itself.
 
 Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called.
