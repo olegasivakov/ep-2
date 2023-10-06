@@ -31,7 +31,7 @@
 
 ### Motivation
 
-We intend to make Ethereum-based blockchains compliant to international financial messaging standards.
+We intend to make Ethereum-based blockchains compatible with international financial messaging standards.
 
 ISO 20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
