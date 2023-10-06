@@ -149,6 +149,8 @@ Blockchain is a network of untrusted nodes; it means that we don't need to monit
 
 Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called. Access to that method is critically important for all security levels.
 
+Common solution is that the information system from (including) off-chain server to (including) node and from node to off-chain client must be the atomic isolated service. Off-chain components should work like firewall and secure gateway between the unrusted blockchain network and the internal information system of financial organization.
+
 **3. Data formats**
 
 ISO 20022 and MT data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
