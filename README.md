@@ -25,9 +25,7 @@
 - [How to deploy](https://github.com/olegasivakov/ep-2#how-to-deploy)
 
 [Usage](https://github.com/olegasivakov/ep-2#usage)
-
 [Notes](https://github.com/olegasivakov/ep-2#notes)
-
 [License](https://github.com/olegasivakov/ep-2#license)
 
 ## About project
