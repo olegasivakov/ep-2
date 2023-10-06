@@ -8,7 +8,7 @@
 - [Project importance](https://github.com/olegasivakov/ep-2#project-importance)
 - [Issues](https://github.com/olegasivakov/ep-2#issues)
 - [Competition](https://github.com/olegasivakov/ep-2#competition)
-- 
+
 [Technical overview](https://github.com/olegasivakov/ep-2#technical-overview)
 - [Usecases](https://github.com/olegasivakov/ep-2#usecases)
 - [Context](https://github.com/olegasivakov/ep-2#context)
