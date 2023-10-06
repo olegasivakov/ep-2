@@ -146,15 +146,15 @@ Typically, Ethnode is running on the single device (PC or server), or in the Doc
 
 ### How to test
 
-@TODO
+_@TODO_
 
 ### How to deploy
 
-@TODO
+_@TODO_
 
 ## Usage
 
-@TODO
+_@TODO_
 
 ## Notes
 
