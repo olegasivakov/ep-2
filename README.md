@@ -91,6 +91,8 @@ We develop this project for the next usecases:
 
 **3. Issue, buy, sell, transfer, deposit, pledge securities defined by smart contract**
 
+Another usecases should be implemented later using development tools.
+
 ### Context
 
 ### Technical analysis
@@ -123,6 +125,8 @@ Typically, Ethnode is running on the single device (PC or server), or in the Doc
 **3. Data formats**
 
 **4. Sender, receiver, customer identities**
+
+**5. Development tools**
 
 ### DOD
 
