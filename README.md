@@ -1,6 +1,6 @@
 # EP-2: ISO15022/20022 and MT format support
 
-## Intex
+## Index
 
 [About project](https://github.com/olegasivakov/ep-2#about-project)
 - [Motivation](https://github.com/olegasivakov/ep-2#motivation)
