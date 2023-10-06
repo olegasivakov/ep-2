@@ -1,7 +1,30 @@
 # EP-2: ISO15022/20022 and MT format support
 
+## Intex
+
 [About project](https://github.com/olegasivakov/ep-2#about-project)
 - [Motivation](https://github.com/olegasivakov/ep-2#motivation)
+- [Project plan](https://github.com/olegasivakov/ep-2#project-plan)
+- [Project importance](https://github.com/olegasivakov/ep-2#project-importance)
+- [Issues](https://github.com/olegasivakov/ep-2#issues)
+- [Competition](https://github.com/olegasivakov/ep-2#competition)
+[Technical overview](https://github.com/olegasivakov/ep-2#technical-overview)
+- [Usecases](https://github.com/olegasivakov/ep-2#usecases)
+- [Context](https://github.com/olegasivakov/ep-2#context)
+- [Technical analysis](https://github.com/olegasivakov/ep-2#technical-analysis)
+- [DOD](https://github.com/olegasivakov/ep-2#dod)
+  - [Stage 1](https://github.com/olegasivakov/ep-2#stage-1)
+  - [Stage 2](https://github.com/olegasivakov/ep-2#stage-2)
+  - [Stage 3](https://github.com/olegasivakov/ep-2#stage-3)
+  - [Stage 4](https://github.com/olegasivakov/ep-2#stage-4)
+  - [Stage 5](https://github.com/olegasivakov/ep-2#stage-5)
+  - [Stage 6](https://github.com/olegasivakov/ep-2#stage-6)
+- [Estimated time](https://github.com/olegasivakov/ep-2#estimated-time)
+- [How to test]()
+- [How to deploy]()
+[Usage]()
+[Notes]()
+[License](https://github.com/olegasivakov/ep-2#license)
 
 ## About project
 
