@@ -161,8 +161,6 @@ In addition, ISO 20022 contains descriptions for business models and operation f
 
 The ideology of financial messages consists in the transfer of identified user data between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 20022 and MT format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
 
-**5. Development tools**
-
 ### DOD
 
 #### _Stage 1. Messaging format parser and translator, node API and oracle-on-the-node_
