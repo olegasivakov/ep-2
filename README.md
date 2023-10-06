@@ -147,7 +147,7 @@ Information system that supports financial messaging must comply with cybersecur
 
 Blockchain is a network of untrusted nodes; it means that we don't need to monitor network security issues when the transaction was signed and sent to blockchain. But, we have to build a strong security for network between off-chain information systems and ethnode, including node itself.
 
-Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called.
+Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called. Access to that method is critically important for all security levels.
 
 **3. Data formats**
 
