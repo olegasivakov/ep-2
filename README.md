@@ -190,6 +190,8 @@ _@TODO_
 
 > [!NOTE]
 > [ISO 15022/200255 official website](https://www.iso20022.org/)
+
+> [!NOTE]
 > [ISO 15022/200222 Intellectual property rights]([https://www.iso20022.org/terms-use](https://www.iso20022.org/intellectual-property-rights))
 
 ## License
