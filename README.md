@@ -51,10 +51,11 @@ ISO 15022/20022 brings standardization and interoperability to the crypto space,
 
 **2. Importance for community of developers:**
 
-- Interoperability
-- Well-developed business models compliant to world-wide regulations
+- **Interoperability for development**: 
 
 **3. Importance for crypto-business community**
+
+- **Business models**: Well-developed business models compliant to world-wide regulations
 
 **4. Importance for crypto users**
 
