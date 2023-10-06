@@ -161,7 +161,7 @@ Typically, Ethnode is running on the single device (PC or server), or in the Doc
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
-#### _Stage 3. Cybersecurity, testing environment and examples_
+#### _Stage 3. Cybersecurity, format manager, testing environment and examples_
 
 ### Estimated time
 
