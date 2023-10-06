@@ -38,16 +38,16 @@ ISO 15022/20022 brings standardization and interoperability to the crypto space,
 
 **1. Common points of importance:**
 
-- Interoperability: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
-- Institutional Integration: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
-- Global Acceptance: ISO 20022’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
-- Efficient Communication: Standardized messaging reduces complexities in communication, streamlining processes and reducing errors in crypto transactions.
-- Cross-Border Transactions: ISO 20022 compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
-- Innovation Pathway: Embracing ISO 20022 demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
-- Regulatory Alignment: Compliance with recognized financial standards may lead to smoother regulatory relationships, aiding in addressing potential concerns.
-- Enhanced Data Management: Standardized data formats facilitate better data management and analysis, enabling improved insights into cryptocurrency markets.
-- Market Growth: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
-- Mainstream Exposure: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
+- **Interoperability**: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
+- **Institutional Integration**: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
+- **Global Acceptance**: ISO 20022’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
+- **Efficient Communication**: Standardized messaging reduces complexities in communication, streamlining processes and reducing errors in crypto transactions.
+- **Cross-Border Transactions**: ISO 20022 compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
+- **Innovation Pathway**: Embracing ISO 20022 demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
+- **Regulatory Alignment**: Compliance with recognized financial standards may lead to smoother regulatory relationships, aiding in addressing potential concerns.
+- **Enhanced Data Management**: Standardized data formats facilitate better data management and analysis, enabling improved insights into cryptocurrency markets.
+- **Market Growth**: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
+- **Mainstream Exposure**: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
 
 **2. Importance for community of developers:**
 
