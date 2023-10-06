@@ -55,7 +55,7 @@ We have to describe usecases, and develop the testing environment to demonstrate
 
 Working on above, we have to solve some problems related to authorizing the external service to sign blockchain transaction, translate standartized messages to the blockchain transaction and vice versa, and authorize blockchain node to connect to external service. In particular, we should follow to one of financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
 
-At the end, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 20022 and MT messages for blockchain.
+Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 20022 and MT messages for blockchain.
 
 ### Project importance
 
