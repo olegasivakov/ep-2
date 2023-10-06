@@ -1,4 +1,4 @@
-# EP-2: ISO15022/20022 and MT format support
+# EP-2: ISO15022/20022 and MT format support for Ethereum
 
 ## Index
 
