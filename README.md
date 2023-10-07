@@ -177,8 +177,8 @@ The ideology of financial messages consists in the transfer of identified user d
   - MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - transaction builder,
   - oracle server on-the-node;
-- ISO 20022 gateway for ```localhost```;
-- MT gateway for ```localhost```;
+- ISO 20022 gateway hosted on ```localhost```;
+- MT gateway hosted on ```localhost```;
 - System manager (including configuration);
 - Oracle smart contract templates for ISO 20022 and MT formats;
 - _@TODO_ this list will extend if need.
@@ -199,6 +199,7 @@ The ideology of financial messages consists in the transfer of identified user d
 - External service authorization manager;
 - CS controls implementation (ISO 27001:2005 app.А5-А15)
 - Messaging format manager tool;
+- Docker container for entire system (node including improvement module, ISO and MT gateways)
 - Testing environment;
 - Example sets for JS, Python.
 - _@TODO_ this list will extend if need.
