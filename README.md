@@ -158,7 +158,7 @@ ISO 20022 and MT data formats are oficially published. Due to the large number o
 In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
 
 > [!NOTE]
-> ISO 20022 list: __@TODO__
+> ISO 20022 list: XSD schemes defined for this standard
 > 
 > MT list: 101, 103, 202, 900, 910, 940, 942, 950
 
@@ -173,13 +173,14 @@ The ideology of financial messages consists in the transfer of identified user d
 - On-chain messaging format description;
 - Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
   - node API component,
-  - ISO 20022 parser and builder,
-  - MT parser and builder,
+  - ISO 20022 parser and builder (prototype for to 10 messaging formats defined in XSD schemes; will be replaced in the future to XSD schemes parser on the next stages),
+  - MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - transaction builder,
   - oracle server on-the-node;
 - ISO 20022 gateway for ```localhost```;
 - MT gateway for ```localhost```;
 - System manager (including configuration);
+- Oracle smart contract templates for ISO 20022 and MT formats;
 - _@TODO_ this list will extend if need.
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
