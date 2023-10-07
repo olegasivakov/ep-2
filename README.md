@@ -237,4 +237,4 @@ _@TODO_ will be defined (updated) for each stage
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollostack/apollo-ios/master/LICENSE)
 
-(c) 2023, @olegasivakov
+© 2023 @olegasivakov
