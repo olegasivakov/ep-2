@@ -201,7 +201,7 @@ The ideology of financial messages consists in the transfer of identified user d
 - Messaging format manager tool;
 - Docker container for entire system (node including improvement module, ISO and MT gateways)
 - Testing environment;
-- Example sets for JS, Python.
+- Example sets for usecases on JS, Python.
 - _@TODO_ this list will extend if need.
 
 ### Estimated time
