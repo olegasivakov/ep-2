@@ -6,6 +6,7 @@
 - [Motivation](https://github.com/olegasivakov/ep-2#motivation)
 - [Project plan](https://github.com/olegasivakov/ep-2#project-plan)
 - [Project importance](https://github.com/olegasivakov/ep-2#project-importance)
+- [Interested parties](https://github.com/olegasivakov/ep-2/blob/main/README.md#interested-parties)
 - [Issues](https://github.com/olegasivakov/ep-2#issues)
 - [Competition](https://github.com/olegasivakov/ep-2#competition)
 
@@ -62,8 +63,6 @@ Finally, we have to provide instructions and examples for community of developer
 There is a wide list of important points of implementing ISO financial standards in Ethereum.
 
 ISO 20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
-
-**1. Common points of importance:**
 
 - **Interoperability**: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
 - **Institutional Integration**: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
