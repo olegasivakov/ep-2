@@ -182,7 +182,7 @@ The ideology of financial messages consists in the transfer of identified user d
 - [ ] System manager (including configuration);
 - [ ] Oracle smart contract templates for ISO 20022 and MT formats;
 
-This list will extend if need.
+_This list will extend if need._
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
@@ -193,7 +193,7 @@ This list will extend if need.
 - [ ] Dictionary and library contract templates;
 - [ ] Improvements (related to contract data interaction) to ISO 20022 and MT parser and builder;
 
-This list will extend if need.
+_This list will extend if need._
 
 #### _Stage 3. Cybersecurity, format manager, testing environment and examples_
 
@@ -205,7 +205,7 @@ This list will extend if need.
 - [ ] Testing environment;
 - [ ] Example sets for usecases on JS, Python.
 
-This list will extend if need.
+_This list will extend if need._
 
 ### Estimated time
 
