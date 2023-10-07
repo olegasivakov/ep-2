@@ -158,9 +158,9 @@ ISO 20022 and MT data formats are oficially published. Due to the large number o
 In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
 
 > [!NOTE]
-> ISO 20022 list:
+> ISO 20022 list: __@TODO__
 > 
-> MT list:
+> MT list: MT 101, 103, 202, 900, 910, 940, 942, 950
 
 **4. Sender, receiver, customer identities**
 
