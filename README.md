@@ -158,7 +158,7 @@ ISO 20022 and MT data formats are oficially published. Due to the large number o
 In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
 
 > [!NOTE]
-> ISO 20022 list: XSD schemes defined for this standard
+> ISO 20022: XSD schemes defined for this standard
 > 
 > MT list: 101, 103, 202, 900, 910, 940, 942, 950
 
