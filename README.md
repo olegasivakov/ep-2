@@ -160,7 +160,7 @@ In addition, ISO 20022 contains descriptions for business models and operation f
 > [!NOTE]
 > ISO 20022 list: __@TODO__
 > 
-> MT list: MT 101, 103, 202, 900, 910, 940, 942, 950
+> MT list: 101, 103, 202, 900, 910, 940, 942, 950
 
 **4. Sender, receiver, customer identities**
 
