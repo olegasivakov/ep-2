@@ -165,6 +165,16 @@ The ideology of financial messages consists in the transfer of identified user d
 
 #### _Stage 1. Messaging format parser and translator, node API and oracle-on-the-node_
 
+- On-chain messaging format description;
+- Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
+  - node API component,
+  - ISO 20022 parser and builder,
+  - MT parser and builder,
+  - transaction builder,
+  - oracle server on-the-node;
+- ISO 20022 gateway for ```localhost```;
+- MT gateway for ```localhost```.
+
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
 #### _Stage 3. Cybersecurity, format manager, testing environment and examples_
