@@ -233,8 +233,8 @@ _@TODO_ will be defined (updated) for each stage
 > [!NOTE]
 > ISO 20022 Intellectual property rights information: https://www.iso20022.org/intellectual-property-rights
 
-## License
+## Author and license
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollostack/apollo-ios/master/LICENSE)
 
-MIT
+(c) 2023, @olegasivakov
