@@ -173,7 +173,8 @@ The ideology of financial messages consists in the transfer of identified user d
   - transaction builder,
   - oracle server on-the-node;
 - ISO 20022 gateway for ```localhost```;
-- MT gateway for ```localhost```.
+- MT gateway for ```localhost```;
+- _@TODO_ this list will extend if need.
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
