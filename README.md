@@ -42,14 +42,14 @@ We started developing this project in order to provide blockchain businesses and
 ### Project plan
 
 Our target is to teach the ethereum node to:
-- receive and parse ISO 20022 and MT messages,
-- translate it to transaction pre-validating one (and encrypt it?),
-- split standartized data to tx body and tx data intended for smart contracts,
-- reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
-- sign and send well-formed blockchain transaction responding by standartized message,
-- detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 20022 or MIT data standard,
-- create standartized message and send it to on-chain,
-- use a version control approach for data schemes, dictionaries and data libraries.
+- [ ] receive and parse ISO 20022 and MT messages,
+- [ ] translate it to transaction pre-validating one (and encrypt it?),
+- [ ] split standartized data to tx body and tx data intended for smart contracts,
+- [ ] reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
+- [ ] sign and send well-formed blockchain transaction responding by standartized message,
+- [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 20022 or MIT data standard,
+- [ ] create standartized message and send it to on-chain,
+- [ ] use a version control approach for data schemes, dictionaries and data libraries.
 
 We have to describe usecases, and develop the testing environment to demonstrate data transfers related to provided usecases.
 
@@ -170,18 +170,18 @@ The ideology of financial messages consists in the transfer of identified user d
 
 #### _Stage 1. Messaging format parser and translator, node API and oracle-on-the-node_
 
-- On-chain messaging format description;
-- Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
-  - node API component,
-  - ISO 20022 parser and builder (prototype for to 10 messaging formats defined in XSD schemes; will be replaced in the future to XSD schemes parser on the next stages),
-  - MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
-  - transaction builder,
-  - oracle server on-the-node;
-- ISO 20022 gateway hosted on ```localhost```;
-- MT gateway hosted on ```localhost```;
-- System manager (including configuration);
-- Oracle smart contract templates for ISO 20022 and MT formats;
-- _@TODO_ this list will extend if need.
+- [ ] On-chain messaging format description;
+- [ ] Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
+  - [ ] node API component,
+  - [ ] ISO 20022 parser and builder (prototype for to 10 messaging formats defined in XSD schemes; will be replaced in the future to XSD schemes parser on the next stages),
+  - [ ] MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
+  - [ ] transaction builder,
+  - [ ] oracle server on-the-node;
+- [ ] ISO 20022 gateway hosted on ```localhost```;
+- [ ] MT gateway hosted on ```localhost```;
+- [ ] System manager (including configuration);
+- [ ] Oracle smart contract templates for ISO 20022 and MT formats;
+- [ ] _@TODO_ this list will extend if need.
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
