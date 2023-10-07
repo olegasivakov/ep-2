@@ -159,6 +159,7 @@ In addition, ISO 20022 contains descriptions for business models and operation f
 
 > [!NOTE]
 > ISO 20022 list:
+> 
 > MT list:
 
 **4. Sender, receiver, customer identities**
