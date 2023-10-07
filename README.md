@@ -185,7 +185,23 @@ The ideology of financial messages consists in the transfer of identified user d
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
 
+- Contract data format description;
+- Transaction data encryption and decryption (rel. to [EP-13](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-13-encrypted-tx-data) ?);
+- XSD schemes parser and builder for ISO 20022;
+- XSD schemes parser and builder for MT format;
+- Dictionary and library contract templates;
+- Improvements (related to contract data interaction) to ISO 20022 and MT parser and builder;
+- _@TODO_ this list will extend if need.
+
 #### _Stage 3. Cybersecurity, format manager, testing environment and examples_
+
+- Threat model and ISO27k controls implementation documentation;
+- External service authorization manager;
+- CS controls implementation (ISO 27001:2005 app.А5-А15)
+- Messaging format manager tool;
+- Testing environment;
+- Example sets for JS, Python.
+- _@TODO_ this list will extend if need.
 
 ### Estimated time
 
