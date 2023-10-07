@@ -76,21 +76,14 @@ ISO 20022 brings standardization and interoperability to the crypto space, ensur
 - **Market Growth**: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
 - **Mainstream Exposure**: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
 
-**2. Importance for community of developers:**
+### Interested parties
 
-- **Interoperability for development**: 
-
-**3. Importance for crypto-business community**
-
-- **Business models**: Well-developed business models compliant to world-wide regulations
-
-**4. Importance for crypto users**
-
-**5. Importance for integrators:**
-
-**6. Importance for financial institutions:**
-
-**7. Importance for authorities:**
+- Ethereum develiopers community, including developers of the Ethereum itself, Ethereum and Web-3 applications developers;
+- Crypto-business community (may also be interested in the well-developed business models compliant to world-wide regulations offered by ISO 20022);
+- Crypto users;
+- System integrators;
+- Financial institutions including banks, investment funds, brokers and traders, institutional investors, etc.;
+- Finansial and economy authorities.
 
 ### Issues
 
