@@ -174,6 +174,7 @@ The ideology of financial messages consists in the transfer of identified user d
   - oracle server on-the-node;
 - ISO 20022 gateway for ```localhost```;
 - MT gateway for ```localhost```;
+- System manager (including configuration);
 - _@TODO_ this list will extend if need.
 
 #### _Stage 2. Message encryption and decryption, version contol for messages, on-chain data reduction (dictionaries, libraries), contract interaction_
@@ -184,7 +185,7 @@ The ideology of financial messages consists in the transfer of identified user d
 
 **Stage 1 ETA**
 
-24 weeks (12 two-week sprints)
+24 weeks (12 two-week full sprints)
 
 **Stage 2 ETA**
 
