@@ -212,23 +212,23 @@ The ideology of financial messages consists in the transfer of identified user d
 
 **Stage 2 ETA**
 
-_@TODO_
+_@TODO_ will be defined after Stage 1 completion
 
 **Stage 3 ETA**
 
-_@TODO_
+_@TODO_ will be defined after Stage 1 or 2 completion
 
 ### How to test
 
-_@TODO_
+_@TODO_ will be defined (updated) for each stage
 
 ### How to deploy
 
-_@TODO_
+_@TODO_ will be defined (updated) for each stage
 
 ## Usage
 
-_@TODO_
+_@TODO_ will be defined (updated) for each stage
 
 ## Notes
 
