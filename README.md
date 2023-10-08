@@ -42,7 +42,7 @@ We started developing this project in order to provide blockchain businesses and
 
 ### Project plan
 
-Our target is to teach the ethereum node to:
+Our target is to make the ethereum node capable to:
 - [ ] receive and parse ISO 20022 and MT messages,
 - [ ] translate it to transaction pre-validating one (and encrypt it?),
 - [ ] split standartized data to tx body and tx data intended for smart contracts,
