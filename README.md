@@ -172,7 +172,7 @@ The ideology of financial messages consists in the transfer of identified user d
 - [ ] ISO 20022 gateway hosted on ```localhost```;
 - [ ] MT gateway hosted on ```localhost```;
 - [ ] System manager (including configuration);
-- [ ] Oracle smart contract templates for ISO 20022 and MT formats;
+- [ ] Smart contract templates for ISO 20022 and MT formats;
 
 _This list will extend if need._
 
