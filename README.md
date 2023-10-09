@@ -1,4 +1,4 @@
-# EP-2: ISO 20022 and MT format support for Ethereum
+# EP-2: ISO 15022 and ISO 20022 formats support for Ethereum
 
 ## Index
 
@@ -34,7 +34,7 @@
 
 We intend to make Ethereum-based blockchains compatible with international financial messaging standards.
 
-ISO 20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
+ISO 15022/20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. ISO 15022 MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
 Blockchain now has many intersections with regulated financial institutions that use mentioned standards of data messaging. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
 
@@ -43,12 +43,12 @@ We started developing this project in order to provide blockchain businesses and
 ### Project plan
 
 Our target is to make the ethereum node capable to:
-- [ ] receive and parse ISO 20022 and MT messages,
+- [ ] receive and parse ISO 15022/20022 messages,
 - [ ] translate it to transaction pre-validating one (and encrypt it?),
 - [ ] split standartized data to tx body and tx data intended for smart contracts,
 - [ ] reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
 - [ ] sign and send well-formed blockchain transaction responding by standartized message,
-- [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 20022 or MIT data standard,
+- [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 15022/20022 data standards,
 - [ ] create standartized message and send it to on-chain,
 - [ ] use a version control approach for data schemes, dictionaries and data libraries.
 
@@ -56,23 +56,23 @@ We have to describe usecases, and develop the testing environment to demonstrate
 
 Working on above, we have to solve some problems related to authorizing the external service to sign blockchain transaction, translate standartized messages to the blockchain transaction and vice versa, and authorize blockchain node to connect to external service. In particular, we should follow to one of financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
 
-Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 20022 and MT messages for blockchain.
+Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 15022/20022 messages for blockchain.
 
 ### Project importance
 
 There is a wide list of important points of implementing ISO financial standards in Ethereum.
 
-ISO 20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
+ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
 
-- **Interoperability**: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
-- **Institutional Integration**: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
-- **Global Acceptance**: ISO 20022’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
+- **Interoperability**: ISO compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
+- **Institutional Integration**: Adhering to ISO standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
+- **Global Acceptance**: ISO’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
 - **Efficient Communication**: Standardized messaging reduces complexities in communication, streamlining processes and reducing errors in crypto transactions.
-- **Cross-Border Transactions**: ISO 20022 compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
-- **Innovation Pathway**: Embracing ISO 20022 demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
+- **Cross-Border Transactions**: ISO compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
+- **Innovation Pathway**: Embracing ISO demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
 - **Regulatory Alignment**: Compliance with recognized financial standards may lead to smoother regulatory relationships, aiding in addressing potential concerns.
 - **Enhanced Data Management**: Standardized data formats facilitate better data management and analysis, enabling improved insights into cryptocurrency markets.
-- **Market Growth**: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
+- **Market Growth**: ISO-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
 - **Mainstream Exposure**: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
 
 ### Interested parties
@@ -123,7 +123,7 @@ There are two common cases of transaction usage:
 - sending coins (```ETH``` or ```wei```) from user's account to another account;
 - sending some data to execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
 
-ISO 20022 and MT messages are looks like as:
+ISO 15022/20022 messages are looks like as:
 
 - a set of data that can be splited to sender-related, receiver-related, and customer-related prtis,
 - coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
@@ -145,18 +145,18 @@ Common solution is that the information system from (including) off-chain server
 
 **3. Data formats**
 
-ISO 20022 and MT data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
+ISO 15022/20022 data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
 
 In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
 
 > [!NOTE]
 > ISO 20022: XSD schemes defined for this standard
 > 
-> MT list: 101, 103, 202, 900, 910, 940, 942, 950
+> ISO 15022 MT list: 101, 103, 202, 900, 910, 940, 942, 950
 
 **4. Sender, receiver, customer identities**
 
-The ideology of financial messages consists in the transfer of identified user data between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 20022 and MT format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
+The ideology of financial messages consists in the transfer of identified user data between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 15022/20022 format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
 
 ### DOD
 
@@ -165,14 +165,14 @@ The ideology of financial messages consists in the transfer of identified user d
 - [ ] On-chain messaging format description;
 - [ ] Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
   - [ ] node API component,
+  - [ ] ISO 15022 parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - [ ] ISO 20022 parser and builder (prototype for to 10 messaging formats defined in XSD schemes; will be replaced in the future to XSD schemes parser on the next stages),
-  - [ ] MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - [ ] transaction builder,
   - [ ] oracle server on-the-node;
+- [ ] ISO 15022 gateway hosted on ```localhost```;
 - [ ] ISO 20022 gateway hosted on ```localhost```;
-- [ ] MT gateway hosted on ```localhost```;
 - [ ] System manager (including configuration);
-- [ ] Smart contract templates for ISO 20022 and MT formats;
+- [ ] Smart contract templates for ISO 15022/20022 formats;
 
 _This list will extend if need._
 
@@ -180,10 +180,10 @@ _This list will extend if need._
 
 - [ ] Contract data format description;
 - [ ] Transaction data encryption and decryption (rel. to [EP-13](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-13-encrypted-tx-data) ?);
+- [ ] XSD schemes and XSD parser and builder for ISO 15022;
 - [ ] XSD schemes parser and builder for ISO 20022;
-- [ ] XSD schemes parser and builder for MT format;
 - [ ] Dictionary and library contract templates;
-- [ ] Improvements (related to contract data interaction) to ISO 20022 and MT parser and builder;
+- [ ] Improvements (related to contract data interaction) to ISO 15022/20022 parser and builder;
 
 _This list will extend if need._
 
@@ -226,6 +226,9 @@ _@TODO_ will be defined (updated) for each stage
 _@TODO_ will be defined (updated) for each stage
 
 ## Notes
+
+> [!NOTE]
+> ISO 15022 official website: https://www.iso15022.org/
 
 > [!NOTE]
 > ISO 20022 official website: https://www.iso20022.org/
