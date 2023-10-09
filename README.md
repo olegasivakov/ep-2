@@ -145,9 +145,9 @@ The common solution is that the information system from (including) off-chain se
 
 **3. Data formats**
 
-ISO 15022/20022 data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
+ISO 15022/20022 data formats have been officially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation of another ones will be available using format manager tools.
 
-In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
+In addition, ISO 20022 contains descriptions of business models and operation flows. Some ones will be implemented in testing environments.
 
 > [!NOTE]
 > ISO 20022: XSD schemes defined for this standard
