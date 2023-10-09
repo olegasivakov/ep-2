@@ -94,9 +94,9 @@ During the project we plan to do as follows:
 
 ### Competition
 
-There are not too many blockchains already compliant to international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of Top-10 of cryptocurrencies by Coinmarketcap (QNT, the next, is 42nd); and XRP is only moving to regulatory compliance in some countries.
+There are not many blockchains already meet the international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of Top-10 of cryptocurrencies by Coinmarketcap (QNT, the next, is in the 5th dozen).
 
-Being the Top-1 of business blockchains, Ethereum will be the first of Top-10 blockchains compatible with international standards and regulations.
+Being the Top-1 busines blockchain, Ethereum will be the first of the Top-10 of all blockchains that becomes compatible with international standards of financial messaging.
 
 ## Technical overview
 
