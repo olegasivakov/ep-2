@@ -116,22 +116,22 @@ Another usecases should be implemented later using development tools.
 
 **1. Data processing**
 
-Ethereum blockchain provides data broadcast, access and execution layer using as a basement for external business logic. Any operation inside that layer is processed by sending ```transaction```, a structured data including node coin value, input data, and a number of technical fields.
+Ethereum blockchain provides data broadcast, access and execution layer using it as a basis for external business logic. Any operation inside that layer is processed by sending ```transaction```, a structured data including coin value, input data, and a number of technical fields.
 
-There are two common cases of transaction usage:
+There are two common usecases of transaction usage:
 
-- sending coins (```ETH``` or ```wei```) from user's account to another account;
-- sending some data to execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
+- sending coins (```ETH``` or ```wei```) from a user account to another account;
+- sending some data to the execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
 
-ISO 15022/20022 messages are looks like as:
+ISO 15022/20022 messages looks like this:
 
-- a set of data that can be splited to sender-related, receiver-related, and customer-related prtis,
+- a set of data that can be divided to sender-related, receiver-related, and customer-related parts,
 - coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
-- a set of data that should be processed by some algorithm (```contract```, for example). This data set may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
+- a set of data that should be processed by some algorithm (```contract```, for example). These data fields may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
 
-All data of standartized messages should be securely transferred; in common case, it means that data should be encrypted, but the blockchain ```contract``` should process data despite that encryption. It means that one of particular tasks is to create an ```object``` that can be processed with contract uzing **zero-knowledge** approach to data processing.
+All contents of standartized messages should be securely transferred; in common case, it means that data should be encrypted, but the blockchain ```contract``` may process data despite that encryption. It means that one of particular tasks is to create an ```object``` that can be processed by the contract uzing **zero-knowledge** approach to data processing.
 
-Solving our issues with data processing, we have to make improvements to the node that can parse standartized message, translate it to the `blockchain` standard, and vice versa after the message was processed with transaction.
+Solving mentioned issues of data processing, we have to make improvements to the node that can parse standartized message, translate it to the `blockchain` standard, and vice versa after the message was processed with transaction.
 
 **2. Connections and cybersecurity**
 
