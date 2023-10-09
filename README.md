@@ -135,13 +135,13 @@ Solving mentioned issues of data processing, we have to make improvements to the
 
 **2. Connections and cybersecurity**
 
-Information system that supports financial messaging must comply with cybersecurity frameworks related to financial market (such as ISO27k, NIST 800-171, GOST R 57580). These tasks should be correlated with blockchain context.
+An information system supporting the financial messaging standards must comply with cybersecurity frameworks related to financial market (such as ISO27k, NIST 800-171, GOST R 57580). These tasks should be correlated with blockchain context.
 
-Blockchain is a network of untrusted nodes; it means that we don't need to monitor network security issues when the transaction was signed and sent to blockchain. But, we have to build a strong security for network between off-chain information systems and Ethnode, including node itself.
+Blockchain is a network of untrusted nodes; it means that we don't need to track network security issues when a transaction has been signed and sent to the blockchain. ut we must ensure reliable protection of the network between off-chain information systems and the Ethnode, including the node itself.
 
-Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called. Access to that method is critically important for all security levels.
+In common case, Ethnode is running on a single device (PC or server), or in a Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed (externally-formed) transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` was previously called. Access to this method is critical for all security levels.
 
-Common solution is that the information system from (including) off-chain server to (including) node and from node to off-chain client must be the atomic isolated service. Off-chain components of this service should work like firewall and secure gateway between the unrusted blockchain network and the internal information system of financial organization.
+The common solution is that the information system from (including) off-chain server to (including) node and from node to off-chain client must be the atomically isolated service. Off-chain components of this service should work as a firewall and a secure gateway between the unrusted blockchain network and the internal information system of financial organization.
 
 **3. Data formats**
 
