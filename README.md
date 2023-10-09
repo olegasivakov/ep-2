@@ -60,7 +60,7 @@ Finally, we have to provide instructions and examples for community of developer
 
 ### Project importance
 
-There is a wide list of important points of implementing ISO financial standards in Ethereum.
+There is a wide list of important points of implementing of ISO financial standards in Ethereum.
 
 ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
 
