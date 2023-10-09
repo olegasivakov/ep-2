@@ -44,12 +44,12 @@ We started developing this project in order to provide blockchain businesses and
 
 Our target is to make the ethereum node capable to:
 - [ ] receive and parse ISO 15022/20022 messages,
-- [ ] translate it to transaction pre-validating one (and encrypt it?),
-- [ ] split standartized data to tx body and tx data intended for smart contracts,
+- [ ] turn it to transaction with pre-validation (and encryption?),
+- [ ] split standardized data to tx body and tx data for smart contracts,
 - [ ] reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
-- [ ] sign and send well-formed blockchain transaction responding by standartized message,
+- [ ] sign and send well-formed blockchain transaction based on the standardized financial messages,
 - [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 15022/20022 data standards,
-- [ ] create standartized message and send it to on-chain,
+- [ ] create standardized message and send it to on-chain,
 - [ ] use a version control approach for data schemes, dictionaries and data libraries.
 
 We have to describe usecases, and develop the testing environment to demonstrate data transfers related to provided usecases.
