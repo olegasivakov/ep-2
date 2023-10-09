@@ -52,11 +52,11 @@ Our target is to make the ethereum node capable to:
 - [ ] create standardized message and send it to on-chain,
 - [ ] use a version control approach for data schemes, dictionaries and data libraries.
 
-We have to describe usecases, and develop the testing environment to demonstrate data transfers related to provided usecases.
+We have to describe usecases, and develop the testing environment to demonstrate data transfers related to the provided usecases.
 
-Working on above, we have to solve some problems related to authorizing the external service to sign blockchain transaction, translate standartized messages to the blockchain transaction and vice versa, and authorize blockchain node to connect to external service. In particular, we should follow to one of financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
+Working on the above, we have to solve some problems related to the authorization of external service to sign a blockchain transaction turning standartized messages to the blockchain transaction and vice versa, as well as the authorization of blockchain node to connect to the external service. In addition, we must follow one of the financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
 
-Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 15022/20022 messages for blockchain.
+Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), as well as Docker container for node and external services supporting ISO 15022/20022 messages for blockchain.
 
 ### Project importance
 
