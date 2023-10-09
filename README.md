@@ -86,11 +86,11 @@ ISO 15022/20022 brings standardization and interoperability to the crypto space,
 
 ### Issues
 
-During the project we plan to solve the next issues:
+During the project we plan to do as follows:
 
-- make the Top-1 business blockchain compatible with international financial messaging standard,
-- provide smoothly and secure communications between on-chain and off-chain information systems,
-- and bring together communities of crypto- and institutional developers by offering a set of development and integration tools.
+1) Make the Top-1 business blockchain compatible with international financial messaging standard,
+2) Provide smoothly and secure communications between on-chain and off-chain information systems,
+3) Bring together communities of crypto- and institutional developers by offering a set of development and integration tools.
 
 ### Competition
 
