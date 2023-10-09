@@ -156,7 +156,7 @@ In addition, ISO 20022 contains descriptions of business models and operation fl
 
 **4. Sender, receiver, customer identities**
 
-The ideology of financial messages consists in the transfer of identified user data between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 15022/20022 format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
+The ideology of financial messages is to transfer data of the identified user between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 15022/20022 format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
 
 ### DOD
 
