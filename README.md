@@ -1,4 +1,4 @@
-# EP-2: ISO 20022 and MT format support for Ethereum
+# EP-2: ISO 15022 and ISO 20022 formats support for Ethereum
 
 ## Index
 
@@ -15,9 +15,9 @@
 - [Context](https://github.com/olegasivakov/ep-2#context)
 - [Technical analysis](https://github.com/olegasivakov/ep-2#technical-analysis)
 - [DOD](https://github.com/olegasivakov/ep-2#dod)
-  - [Stage 1](https://github.com/olegasivakov/ep-2#stage-1)
-  - [Stage 2](https://github.com/olegasivakov/ep-2#stage-2)
-  - [Stage 3](https://github.com/olegasivakov/ep-2#stage-3)
+  - [Stage 1](https://github.com/olegasivakov/ep-2#stage-1-messaging-format-parser-and-translator-node-api-and-oracle-on-the-node)
+  - [Stage 2](https://github.com/olegasivakov/ep-2#stage-2-message-encryption-and-decryption-version-contol-for-messages-on-chain-data-reduction-dictionaries-libraries-contract-interaction)
+  - [Stage 3](https://github.com/olegasivakov/ep-2#stage-3-cybersecurity-format-manager-testing-environment-and-examples)
 - [Estimated time](https://github.com/olegasivakov/ep-2#estimated-time)
 - [How to test](https://github.com/olegasivakov/ep-2#how-to-test)
 - [How to deploy](https://github.com/olegasivakov/ep-2#how-to-deploy)
@@ -34,45 +34,45 @@
 
 We intend to make Ethereum-based blockchains compatible with international financial messaging standards.
 
-ISO 20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles includes securities operations, payments, trade services, Forex, cards and related services. MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
+ISO 15022/20022, known as "universal financial industry message scheme", offers business modeles and data design rules related to financial market. Business modeles include securities operations, payments, trade services, Forex, cards and related services. ISO 15022 MT messages format ("SWIFT" messages) is a proprietary data format developed and used by SWIFT, the international provider of secure financial messaging service.
 
-Blockchain now has many intersections with regulated financial institutions that use mentioned standards of data messaging. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
+Blockchain now has many intersections with regulated financial institutions that use ISO 15022/20022 messaging standards. We believe that intersections will deeper and business possibilities will greater when regulated institutions and crypto enthusiasts start using common messaging standards. In particular, this means that the blockchain node should _(a)_ read standartized messages from off-chain financial information systems, _(b)_ respond to, and _(c)_ send to off-chain standartized messages based on the results of transaction execution.
 
-We started developing this project in order to provide blockchain businesses and software developers with the possibility of direct integration of on-chain and off-chain information systems.
+We're starting development of this project in order to provide blockchain businesses and software developers with the possibility of direct integration of on-chain and off-chain information systems.
 
 ### Project plan
 
-Our target is to teach the ethereum node to:
-- [ ] receive and parse ISO 20022 and MT messages,
-- [ ] translate it to transaction pre-validating one (and encrypt it?),
-- [ ] split standartized data to tx body and tx data intended for smart contracts,
+Our target is to make the ethereum node capable to:
+- [ ] receive and parse ISO 15022/20022 messages,
+- [ ] turn it to transaction with pre-validation (and encryption?),
+- [ ] split standardized data to tx body and tx data for smart contracts,
 - [ ] reduce on-chain data using specialized smart contracts as common dictionaries and data libraries,
-- [ ] sign and send well-formed blockchain transaction responding by standartized message,
-- [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 20022 or MIT data standard,
-- [ ] create standartized message and send it to on-chain,
+- [ ] sign and send well-formed blockchain transaction based on the standardized financial messages,
+- [ ] detect on-chain messages addressed to accounts of this node, read (and decrypt?) and parse result of transaction execution as formed as ISO 15022/20022 data standards,
+- [ ] create standardized message and send it to on-chain,
 - [ ] use a version control approach for data schemes, dictionaries and data libraries.
 
-We have to describe usecases, and develop the testing environment to demonstrate data transfers related to provided usecases.
+We have to describe usecases, and develop the testing environment to demonstrate data transfers related to the provided usecases.
 
-Working on above, we have to solve some problems related to authorizing the external service to sign blockchain transaction, translate standartized messages to the blockchain transaction and vice versa, and authorize blockchain node to connect to external service. In particular, we should follow to one of financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
+Working on the above, we have to solve some problems related to the authorization of external service to sign a blockchain transaction turning standartized messages to the blockchain transaction and vice versa, as well as the authorization of blockchain node to connect to the external service. In addition, we must follow one of the financial cybersecurity frameworks and develop a lot of papers (threat model, etc.).
 
-Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), and Docker container of node and external services supported ISO 20022 and MT messages for blockchain.
+Finally, we have to provide instructions and examples for community of developers (maybe, including some of business models provided by ISO 20022?), as well as Docker container for node and external services supporting ISO 15022/20022 messages for blockchain.
 
 ### Project importance
 
-There is a wide list of important points of implementing ISO financial standards in Ethereum.
+There is a wide list of important points of implementing of ISO financial standards in Ethereum.
 
-ISO 20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
+ISO 15022/20022 brings standardization and interoperability to the crypto space, ensuring smoother communication between various platforms and participants. It provides a common language and structure for the exchange of electronic data between financial institutions and international payment systems like SWIFT. More than 70 countries made their regulations compliant to international standard.
 
-- **Interoperability**: ISO 20022 compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
-- **Institutional Integration**: Adhering to ISO 20022 standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
-- **Global Acceptance**: ISO 20022’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
+- **Interoperability**: ISO compliance enhances compatibility between cryptocurrencies and traditional financial systems, enabling seamless cross-network transactions.
+- **Institutional Integration**: Adhering to ISO standards makes it easier for institutional players to integrate cryptocurrencies into their existing systems, potentially increasing adoption.
+- **Global Acceptance**: ISO’s recognized framework can boost the legitimacy of digital currencies, fostering broader acceptance and presumably increasing their value.
 - **Efficient Communication**: Standardized messaging reduces complexities in communication, streamlining processes and reducing errors in crypto transactions.
-- **Cross-Border Transactions**: ISO 20022 compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
-- **Innovation Pathway**: Embracing ISO 20022 demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
+- **Cross-Border Transactions**: ISO compliance simplifies cross-border crypto transactions, as the standardized format is understood worldwide.
+- **Innovation Pathway**: Embracing ISO demonstrates cryptocurrency’s willingness to align with modern financial practices, encouraging further innovation and partnerships.
 - **Regulatory Alignment**: Compliance with recognized financial standards may lead to smoother regulatory relationships, aiding in addressing potential concerns.
 - **Enhanced Data Management**: Standardized data formats facilitate better data management and analysis, enabling improved insights into cryptocurrency markets.
-- **Market Growth**: ISO 20022-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
+- **Market Growth**: ISO-compliant cryptocurrencies could attract more investors and traders, contributing to increased market liquidity and growth.
 - **Mainstream Exposure**: Integration with a well-established standard brings cryptocurrencies closer to mainstream financial services and presumably broader user bases.
 
 ### Interested parties
@@ -86,17 +86,17 @@ ISO 20022 brings standardization and interoperability to the crypto space, ensur
 
 ### Issues
 
-During the project we plan to solve the next issues:
+During the project we plan to do as follows:
 
-- make the Top-1 business blockchain compatible with international financial messaging standard,
-- provide smoothly and secure communications between on-chain and off-chain information systems,
-- and bring together communities of crypto- and institutional developers by offering a set of development and integration tools.
+1) Make the Top-1 business blockchain compatible with international financial messaging standard,
+2) Provide smoothly and secure communications between on-chain and off-chain information systems,
+3) Bring together communities of crypto- and institutional developers by offering a set of development and integration tools.
 
 ### Competition
 
-There are not too many blockchains already compliant to international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of Top-10 of cryptocurrencies by Coinmarketcap (QNT, the next, is 42nd); and XRP is only moving to regulatory compliance in some countries.
+There are not many blockchains already meet the international financial standards: Quant (QNT), Ripple (XRP), Stellar (XLM), Hedera (HBAR), IOTA (MIOTA), XDC Network (XDC), Algorand (ALGO). XRP is only part of Top-10 of cryptocurrencies by Coinmarketcap (QNT, the next, is in the 5th dozen).
 
-Being the Top-1 of business blockchains, Ethereum will be the first of Top-10 blockchains compatible with international standards and regulations.
+Being the Top-1 busines blockchain, Ethereum will be the first of the Top-10 of all blockchains that becomes compatible with international standards of financial messaging.
 
 ## Technical overview
 
@@ -116,47 +116,47 @@ Another usecases should be implemented later using development tools.
 
 **1. Data processing**
 
-Ethereum blockchain provides data broadcast, access and execution layer using as a basement for external business logic. Any operation inside that layer is processed by sending ```transaction```, a structured data including node coin value, input data, and a number of technical fields.
+Ethereum blockchain provides data broadcast, access and execution layer using it as a basis for external business logic. Any operation inside that layer is processed by sending ```transaction```, a structured data including coin value, input data, and a number of technical fields.
 
-There are two common cases of transaction usage:
+There are two common usecases of transaction usage:
 
-- sending coins (```ETH``` or ```wei```) from user's account to another account;
-- sending some data to execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
+- sending coins (```ETH``` or ```wei```) from a user account to another account;
+- sending some data to the execution layer oа blockchain, expecting that this data will be accepted and processed by the ```contract```.
 
-ISO 20022 and MT messages are looks like as:
+ISO 15022/20022 messages looks like this:
 
-- a set of data that can be splited to sender-related, receiver-related, and customer-related prtis,
+- a set of data that can be divided to sender-related, receiver-related, and customer-related parts,
 - coin transfer instructions, containing a wide amount of data in a comparision with traditional ```Ethereum``` transaction data,
-- a set of data that should be processed by some algorithm (```contract```, for example). This data set may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
+- a set of data that should be processed by some algorithm (```contract```, for example). These data fields may contain a dictionary- or library-related data (may be indexed), and a customer-related (individyally-defined) data.
 
-All data of standartized messages should be securely transferred; in common case, it means that data should be encrypted, but the blockchain ```contract``` should process data despite that encryption. It means that one of particular tasks is to create an ```object``` that can be processed with contract uzing **zero-knowledge** approach to data processing.
+All contents of standartized messages should be securely transferred; in common case, it means that data should be encrypted, but the blockchain ```contract``` may process data despite that encryption. It means that one of particular tasks is to create an ```object``` that can be processed by the contract uzing **zero-knowledge** approach to data processing.
 
-Solving our issues with data processing, we have to make improvements to the node that can parse standartized message, translate it to the `blockchain` standard, and vice versa after the message was processed with transaction.
+Solving mentioned issues of data processing, we have to make improvements to the node that can parse standartized message, translate it to the `blockchain` standard, and vice versa after the message was processed with transaction.
 
 **2. Connections and cybersecurity**
 
-Information system that supports financial messaging must comply with cybersecurity frameworks related to financial market (such as ISO27k, NIST 800-171, GOST R 57580). These tasks should be correlated with blockchain context.
+An information system supporting the financial messaging standards must comply with cybersecurity frameworks related to financial market (such as ISO27k, NIST 800-171, GOST R 57580). These tasks should be correlated with blockchain context.
 
-Blockchain is a network of untrusted nodes; it means that we don't need to monitor network security issues when the transaction was signed and sent to blockchain. But, we have to build a strong security for network between off-chain information systems and Ethnode, including node itself.
+Blockchain is a network of untrusted nodes; it means that we don't need to track network security issues when a transaction has been signed and sent to the blockchain. ut we must ensure reliable protection of the network between off-chain information systems and the Ethnode, including the node itself.
 
-Typically, Ethnode is running on the single device (PC or server), or in the Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed externally-formed transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` previously called. Access to that method is critically important for all security levels.
+In common case, Ethnode is running on a single device (PC or server), or in a Docker container. It can recieve CLI or RPC (HTTP, WS, IPC) requests using Ethereum native format. Ethnode can broadcast signed (externally-formed) transactions to blockchain network; it is also available to sign transactions when method ```personal_unlockAccount()``` was previously called. Access to this method is critical for all security levels.
 
-Common solution is that the information system from (including) off-chain server to (including) node and from node to off-chain client must be the atomic isolated service. Off-chain components of this service should work like firewall and secure gateway between the unrusted blockchain network and the internal information system of financial organization.
+The common solution is that the information system from (including) off-chain server to (including) node and from node to off-chain client must be the atomically isolated service. Off-chain components of this service should work as a firewall and a secure gateway between the unrusted blockchain network and the internal information system of financial organization.
 
 **3. Data formats**
 
-ISO 20022 and MT data formats are oficially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation for another schemes will be available using format manager tools.
+ISO 15022/20022 data formats have been officially published. Due to the large number of data schemas, we need to choose the schemas that will be implemented first; implementation of another ones will be available using format manager tools.
 
-In addition, ISO 20022 contains descriptions for business models and operation flows. Some ones will be implemented with testing environments.
+In addition, ISO 20022 contains descriptions of business models and operation flows. Some ones will be implemented in testing environments.
 
 > [!NOTE]
 > ISO 20022: XSD schemes defined for this standard
 > 
-> MT list: 101, 103, 202, 900, 910, 940, 942, 950
+> ISO 15022 MT list: 101, 103, 202, 900, 910, 940, 942, 950
 
 **4. Sender, receiver, customer identities**
 
-The ideology of financial messages consists in the transfer of identified user data between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 20022 and MT format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
+The ideology of financial messages is to transfer data of the identified user between identified and authorized participants of the financial data network. Blockchain network, at the same time, does not provide for the disclosure of information other than the public cryptographic key. ISO 15022/20022 format implementation should include ways to identify the addressee; perhaps this solution should also comply with the blockchain ideology of non-disclosure of the user's identity.
 
 ### DOD
 
@@ -165,14 +165,14 @@ The ideology of financial messages consists in the transfer of identified user d
 - [ ] On-chain messaging format description;
 - [ ] Node improvement module (rel. to [EP-21](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-21-ethereum-node-extensions-node-improvement-module) ?), including:
   - [ ] node API component,
+  - [ ] ISO 15022 parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - [ ] ISO 20022 parser and builder (prototype for to 10 messaging formats defined in XSD schemes; will be replaced in the future to XSD schemes parser on the next stages),
-  - [ ] MT parser and builder (prototype for to 8 messaging formats; will be replaced in the future to XSD schemes parser on the next stages),
   - [ ] transaction builder,
   - [ ] oracle server on-the-node;
+- [ ] ISO 15022 gateway hosted on ```localhost```;
 - [ ] ISO 20022 gateway hosted on ```localhost```;
-- [ ] MT gateway hosted on ```localhost```;
 - [ ] System manager (including configuration);
-- [ ] Oracle smart contract templates for ISO 20022 and MT formats;
+- [ ] Smart contract templates for ISO 15022/20022 formats;
 
 _This list will extend if need._
 
@@ -180,10 +180,10 @@ _This list will extend if need._
 
 - [ ] Contract data format description;
 - [ ] Transaction data encryption and decryption (rel. to [EP-13](https://github.com/olegasivakov/ethereum_projects_about/blob/main/README.md#ep-13-encrypted-tx-data) ?);
+- [ ] XSD schemes and XSD parser and builder for ISO 15022;
 - [ ] XSD schemes parser and builder for ISO 20022;
-- [ ] XSD schemes parser and builder for MT format;
 - [ ] Dictionary and library contract templates;
-- [ ] Improvements (related to contract data interaction) to ISO 20022 and MT parser and builder;
+- [ ] Improvements (related to contract data interaction) to ISO 15022/20022 parser and builder;
 
 _This list will extend if need._
 
@@ -226,6 +226,9 @@ _@TODO_ will be defined (updated) for each stage
 _@TODO_ will be defined (updated) for each stage
 
 ## Notes
+
+> [!NOTE]
+> ISO 15022 official website: https://www.iso15022.org/
 
 > [!NOTE]
 > ISO 20022 official website: https://www.iso20022.org/
