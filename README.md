@@ -203,7 +203,27 @@ _This list will extend if need._
 
 **Stage 1 ETA**
 
-24 weeks (12 two-week full sprints)
+1) On-chain messaging format description (p.1 of the plan of my project)
+Result: documentation (including diagrams and its description) published in the Github repository of the project
+Duration: 1 two-weeks sprint
+
+2) Node improvement module (p.2, including subitems)
+Result: sourcecode (node additions and complement courcefiles) published in the Github repository of the project. Includes node API component; parser and builder for a basic set of standardized messages; transaction builder and transaction parser; callback server ("oracle-on-the-node" server)
+Duration: 5 two-weeks sprints
+
+3) Gateway server (p.3 and 4) and System manager (p.5)
+Result: sourcecode of gateway server for localhost including external and node communication I/O modules for ISO 15022/20022 messages, and a System managing module with configuration module
+Duration: 2 two-weeks sprints
+
+4) Smart contracts templates
+Result: templates for smart contracts supporting standardized financial messages
+Duration: 2 two-weeks sprints
+
+5) Testing and and improvements
+Result: updates to sourcecode of the above items published in the Github repository of the project
+Duration: 2 two-weeks sprints
+
+Total: 24 weeks (12 two-week full sprints)
 
 **Stage 2 ETA**
 
@@ -236,8 +256,8 @@ _@TODO_ will be defined (updated) for each stage
 > [!NOTE]
 > ISO 20022 Intellectual property rights information: https://www.iso20022.org/intellectual-property-rights
 
-## Author and license
+## License
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollostack/apollo-ios/master/LICENSE)
 
-© 2023 @olegasivakov
+MIT
