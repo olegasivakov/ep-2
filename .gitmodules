@@ -1,3 +1,6 @@
 [submodule "service/node-dev"]
 	path = service/node-dev
 	url = git@github.com:olegasivakov/ep-2-node.git
+[submodule "service/gateway"]
+	path = service/gateway
+	url = git@github.com:olegasivakov/ep-2-gateway.git
